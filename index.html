@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>10 Sec Maths Game</title>
+
+    <!-- jQuery and JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+    <!-- CSS Bootstrap and stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="game-title my-5 text-center mx-auto">
+        <h2>Let's play</h2>
+        <h2>10 Second Maths Game</h2>
+        <p>How to play: finsih as many equations as you can in 10 seconds. Each correct answer adds 1 point to your score and extra 1 second to the timer</p>
+      </div>
+
+
+    <div class="background">
+      <div class="row align-items-center h-100">
+        <div class="col-xs-12 math-game text-center mx-auto">
+          <div>
+            <h3 id="time-left">10<span> seconds left</span></h3>
+          </div>
+          <div class="d-flex mt-3">
+            <h1 id="equation" class="my-auto"></h1>
+            <input id="user-input" type="number" />
+          </div>
+          <div class="mt-2">
+            <span class="operator mr-4"><input class="op-select" type="checkbox" data-op="add" checked> +</span>
+            <span class="operator mr-4"><input class="op-select" type="checkbox" data-op="minus"> -</span>
+            <span class="operator mr-4"><input class="op-select" type="checkbox" data-op="times"> ×</span>
+            <span class="operator"><input class="op-select" type="checkbox" data-op="divide"> ÷</span>
+          </div>
+          <div class="mt-4">
+            <h4>Your current score: <span id="current-score">0</span></h4>
+            <h4 class="my-0">Your best score: <span id="best-score">0</span></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

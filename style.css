@@ -1,0 +1,56 @@
+* {
+  border: 1px solid green;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+.game-title h2 {
+  font-size: 52px;
+}
+
+.game-title p {
+  font-size: 28px;
+}
+
+.background {
+  background-image: url("Images/math-game-background-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+
+body {
+  font-family: 'Amatic SC', cursive;
+}
+
+#user-input {
+  background-color:transparent;
+  border-radius: 5px;
+  border: 1px solid #000;
+  margin-left: 12px;
+  font-size: 68px;
+  width: 100px;
+  height: 90px;
+}
+
+h3 {
+  font-size: 38px;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h4 {
+  font-size: 32px;
+}
+
+.operator {
+  font-size: 24px;
+}
+
+
