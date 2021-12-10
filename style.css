@@ -1,19 +1,17 @@
-* {
-  border: 1px solid green;
+body {
+  font-family: 'Amatic SC', cursive;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 960px;
-  }
+h1 {
+  font-size: 72px;
 }
 
-.game-title h2 {
-  font-size: 52px;
+h3 {
+  font-size: 38px;
 }
 
-.game-title p {
-  font-size: 28px;
+h4 {
+  font-size: 32px;
 }
 
 .background {
@@ -23,8 +21,12 @@
   height: 450px;
 }
 
-body {
-  font-family: 'Amatic SC', cursive;
+.game-title h2 {
+  font-size: 52px;
+}
+
+.game-title p {
+  font-size: 28px;
 }
 
 #user-input {
@@ -37,20 +39,24 @@ body {
   height: 90px;
 }
 
-h3 {
-  font-size: 38px;
-}
-
-h1 {
-  font-size: 72px;
-}
-
-h4 {
-  font-size: 32px;
-}
-
 .operator {
   font-size: 24px;
 }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 
